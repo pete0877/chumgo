@@ -1,0 +1,35 @@
+/////////////////////////////////////////////
+// FEW USEFUL UTIL SCRIPTS HERE:
+
+cleanMacChars.sh - utility to convert in bulk .sgf files from Mac text format to Unix. Assumes mac2unix.sh is in your path.
+USAGE: cleanMacChars.sh {directory}
+example: cleanMacChars.sh /home/john/mygames
+
+createGameListFile.py - script to create a game list file based on .SGF files in a directory. This file can be then fed to generateGameRecordClassFiles.sh
+USAGE: createGameListFile.py {directory} {output-game-list-file}
+example: createGameListFile.py /home/john/mygames MyGames.lst
+
+generateGameRecordClassFiles.sh - script that reads in all SGF files from given directory and creates a game list file (containing all the game information - one file line per game). Creates ./out directory with all the game class .as files
+USAGE:  generateGameRecordClassFiles.sh {games-file}
+example: generateGameRecordClassFiles.sh MyGames.lst
+
+
+
+
+So a typical process one might go through to import new set of games into the code-base:
+
+1. run following to clean up new-line characters:
+
+   ./cleanMacChars.sh /home/john/mygames
+
+2. run following to create game list file:
+
+   ./createGameListFile.py /home/john/mygames MyGames.lst
+
+3. run following to generate the Flash .as files containing game classes:
+
+   ./generateGameRecordClassFiles.sh MyGames.lst
+
+
+This will create ./out directory from where the final .as files can be copied to the ./src directory in the code-base (e.g. see ./src/games_GoSeigen)
+

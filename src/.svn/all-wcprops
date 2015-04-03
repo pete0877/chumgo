@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svnroot/chumgo/!svn/ver/17/src
+END
+app.xml
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/chumgo/!svn/ver/5/src/app.xml
+END
+Logger.as
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/chumgo/!svn/ver/1/src/Logger.as
+END
+GameRecordCollection.as
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/chumgo/!svn/ver/17/src/GameRecordCollection.as
+END
+index_leechangho.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/chumgo/!svn/ver/12/src/index_leechangho.html
+END
+GameInfo.as
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/chumgo/!svn/ver/1/src/GameInfo.as
+END
+Observer.as
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/chumgo/!svn/ver/9/src/Observer.as
+END
+index_goseigen.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/chumgo/!svn/ver/16/src/index_goseigen.html
+END
+GameDisplay.as
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/chumgo/!svn/ver/11/src/GameDisplay.as
+END
+Utils.as
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/chumgo/!svn/ver/1/src/Utils.as
+END
+GameMove.as
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/chumgo/!svn/ver/5/src/GameMove.as
+END
+GameRecordCollection_ChanghoLee.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/chumgo/!svn/ver/8/src/GameRecordCollection_ChanghoLee.as
+END
+Application.as
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/chumgo/!svn/ver/1/src/Application.as
+END
+GameRecordCollection_GoSeigen.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/chumgo/!svn/ver/8/src/GameRecordCollection_GoSeigen.as
+END
+GameRecord.as
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/chumgo/!svn/ver/5/src/GameRecord.as
+END
+GameState.as
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/chumgo/!svn/ver/9/src/GameState.as
+END

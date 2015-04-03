@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<project name="chumgo ant script" basedir="." default="build">
+
+  <target name="clean">		
+    <delete failonerror="false">
+      <fileset dir="build" includes="*" /> 
+    </delete>
+  </target>
+
+  <target name="build" depends="clean">
+    <exec executable="./build.sh">
+      <arg line="" />
+    </exec>
+
+    <available file="build/chumgo_leechangho.swf" property="chumgo_leechangho" />
+    <fail unless="chumgo_leechangho" message="ERROR: BUILD OF chumgo_leechangho FAILED!" />
+
+    <available file="build/chumgo_goseigen.swf" property="chumgo_goseigen" />
+    <fail unless="chumgo_goseigen" message="ERROR: BUILD OF chumgo_goseigen FAILED!" />
+
+    <copy todir="build">
+      <fileset dir="src" includes="*.html" />
+    </copy>		
+  </target>
+	
+</project>

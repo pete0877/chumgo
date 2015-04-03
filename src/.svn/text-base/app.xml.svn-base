@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<movie width="320" height="240" framerate="12">
+
+	<background color="#000000"/>
+	
+	<clip import="lib/classes.swf" />
+	
+	<frame>
+		<library>
+			<clip id="app" class="Application" />
+			<clip id="boardImageAsset" import="lib/board.png"/>			
+			<clip id="blackImageAsset" import="lib/black.png"/>
+			<clip id="whiteImageAsset" import="lib/white.png"/>
+			<clip id="blackLastImageAsset" import="lib/black_last.png"/>
+			<clip id="whiteLastImageAsset" import="lib/white_last.png"/>
+		</library>
+
+		<place id="app" name="myApp" depth="200" />
+		<place id="boardImageAsset" name="boardImage" x="0" y="0" depth="100"/>
+		<place id="blackImageAsset" name="blackImage" x="10" y="10" depth="1"/>
+		<place id="whiteImageAsset" name="whiteImage" x="30" y="30" depth="2"/>
+		<place id="blackLastImageAsset" name="blackLastImage" x="30" y="10" depth="3"/>
+		<place id="whiteLastImageAsset" name="whiteLastImage" x="10" y="30" depth="4"/>	
+
+	</frame>
+</movie>
+
+

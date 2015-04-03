@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svnroot/chumgo/!svn/ver/17/util
+END
+createGameListFile.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/chumgo/!svn/ver/10/util/createGameListFile.py
+END
+GoSeigen.lst
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/chumgo/!svn/ver/5/util/GoSeigen.lst
+END
+generateGameRecordClassFiles.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/chumgo/!svn/ver/17/util/generateGameRecordClassFiles.py
+END
+generateGameRecordClassFiles.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/chumgo/!svn/ver/10/util/generateGameRecordClassFiles.sh
+END
+Famous.lst
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/chumgo/!svn/ver/17/util/Famous.lst
+END
+LeeSedol.lst
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/chumgo/!svn/ver/10/util/LeeSedol.lst
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/chumgo/!svn/ver/10/util/README
+END
+cleanMacChars.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/chumgo/!svn/ver/10/util/cleanMacChars.sh
+END
+ChanghoLee.lst
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/chumgo/!svn/ver/7/util/ChanghoLee.lst
+END
