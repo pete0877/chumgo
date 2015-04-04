@@ -2,6 +2,8 @@
 
 ChumGo is a AS2 Flash application meant to run on Chumby (http://www.chumby.com). It displays Go games and josekis (depending on how it is built). It is meant to display simple forms of SGF files. 
 
+You can see it in action here:
+http://dash.dash.sel.sony.com/guide/widget/ChumGo%20-%20Go%20Seigen
 
 _______________________
 BUILDING 
